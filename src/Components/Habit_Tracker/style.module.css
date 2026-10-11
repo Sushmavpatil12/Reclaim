@@ -1,0 +1,47 @@
+.btn {
+    display: inline-block;
+    background-color: #ff5722;
+    color: #fff;
+    font-size: 11px;
+    padding: 6px 14px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .slide:hover .btn {
+    background-color: #e64a19;
+  }
+  
+  .btn-secondary {
+    background-color: #ddd;
+    color: #333;
+    margin-left: 10px;
+  }
+  
+@media screen and (max-width:400px){
+    .icon{
+        display: none;
+    } 
+    .respo{
+        display: none;
+    }
+    .container{
+        padding-inline:0rem;
+    }
+}    
+@media screen and (max-width:768px){    
+    .container{
+        padding-inline:0.5rem;
+    }
+    .table{
+        width: 100%;
+    }
+    .table th, .table td{
+        padding: 2%;
+    }
+    .detail{
+        font-size: smaller;
+    }
+
+}
